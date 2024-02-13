@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(30, 28, 28);
+    color: rgb(204, 197, 187);
+}
+#header{
+    width:100%;
+    height: 87px;
+    background-color: black;
+}
+.cointainer{
+    padding: 10px 10%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+h1{
+    font-size: 84px;
+    color: rgb(244, 244, 248);
+    margin-top: 27px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: beige;
+    text-decoration: none;
+    font-size: 19px;
+    position:relative;
+}
+nav ul li a::after{
+    content: ' ';
+    width:0;
+    height:4px;
+    background-color: aliceblue;
+    position:absolute;
+    left:0;
+    bottom: -7px;
+    transition: 0.9s;
+}
+nav ul li a:hover:after{
+    width:100%;
+}
+.second{
+    /* background-color: black; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    height: 300px; 
+    text-align: left;
+    color: bisque;
+    background-image: url(https://cdn.videoplasty.com/animation/chill-coding-programming-lo-fi-animation-stock-animation-21874-1024x576.jpg);
+   background-size:cover;
+   background-repeat: no-repeat;
+   height: 732px;
+   gap: 24px;
+    }
+
+/*name{
+    background-color: black;
+    height: 80px;
+    width: 380px;
+    font-size: 24px;
+    margin-top:0.01px;
+    margin-left: 293px;+
+}*/
+h1{
+    color: rgb(180, 163, 140);
+    background-color: black;
+    height: 70px;
+    font-size: 43px;
+}
+
+h2{  
+    margin-top:32px;
+    color: antiquewhite;
+    background-color: black;
+    font-size: 58px;
+}
+
+#container {
+    display: flex;
+  }
+
+  #container {
+    width: 100%;
+    background-color: antiquewhite;
+  }
+  
+  .half {
+    width: 80%;
+    float: left; 
+    box-sizing: border-box;
+    background-color: rgb(165, 168, 161);
+    font-size:25px;
+    margin: 9px;
+    margin-top: 8px;
+  }
+  .tab-titles{
+    display: flex;
+    margin: 40px 20px 70px 0px;
+  }
+  .tab-links{
+    margin-right: 30px;
+    font-size: 20px;
+    color: rgb(63, 49, 49);
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+  }
+  .tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #120105;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+  }
+  .tab-links.active-link::after{
+    width: 50%;
+  }
+
+.tab-contents ul li {
+    list-style: none;
+    margin: 10px 0px;
+}
+
+.tab-contents ul li {
+    color: rgb(213, 39, 39);
+    font-size: 18px;
+    color: #120105;
+}
+.intro{
+    color: #120105;
+}
+.intro1{
+   color: aliceblue;
+   font-family: Arial, Helvetica, sans-serif;
+}
+#as{
+    height: 79px;
+    text-align: center;
+    background-color: rgb(108, 88, 39);
+    font-size: 29px;
+    animation: as 6s linear 2s infinite;
+}
+
+@keyframes as{
+    0% {background-color: rgb(108, 88, 39)}
+    25%{background-color: rgb(176, 88, 39) }
+    50%{background-color:black}
+    100%{background-color: rgb(168, 212, 410)}
+}
+
+#one{
+    animation: on 8s linear 8s infinite;
+}
+
+@keyframes on{
+    from{background-color: rgb(165, 168, 161)}
+    to{ background-color: rgb(175, 128, 176);}
+}
+#me{
+    
+    height: 89px;
+    width: 56px;
+   border-radius:43% ;
+}
+.one{
+    margin-right: 482px;
+}
+.intro1{
+    margin-top: 0px;
+   font-size: 69px;
+}
+.my{
+    margin: 7px;
+    margin-top: 17px;
+    color: rgb(13, 6, 28);
+    font-size: 48px;
+    text-align: center;
+    font-family:sans-serif;
+}
